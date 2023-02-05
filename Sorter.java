@@ -35,5 +35,8 @@ public class  Sorter {
             arr[i] = smallerNumber;  
         }  
     }
+    public static void sortBySelection(int[] list){
+        selectionSort(list);
+    }
     
 }

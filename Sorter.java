@@ -1,8 +1,14 @@
+import java.util.ArrayList;
+
 public class  Sorter {
     public static void main(String[] args){
         System.out.println("A");
         System.out.println("B");
     }
+    public static void sort(int[] array){
+        insertionSort(array);
+    }
+
     public static void insertionSort(int array[]) {  
         int n = array.length;  
         for (int j = 1; j < n; j++) {  
